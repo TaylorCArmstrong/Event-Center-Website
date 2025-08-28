@@ -1,3 +1,4 @@
+/*This is the Styling for the Menu*/
 section {
   padding: 1.5rem;
   font-family: 'Segoe UI', Roboto, sans-serif;
@@ -50,7 +51,7 @@ tbody tr:hover td {
 
 @media (max-width: 600px) {
   table {
-    font-size: 0.95rem;
+    font-size: 0.95px;
   }
 
   thead th, tbody th, td {
@@ -58,3 +59,62 @@ tbody tr:hover td {
   }
 }
 
+/*Styling for the main logo*/
+.logo-box {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #f5d6b9; /* Cream tone */
+  padding: 1rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  font-size: 1rem;
+  color: #333;
+  z-index: 1000;
+}
+
+@media (max-width: 600px) {
+  .logo-box {
+    font-size: 1.5px;
+    padding: 1rem 1.5rem;
+  }
+}
+
+
+
+/*This is the Styling for the Nav bar*/
+nav {
+  width: 100%;
+  background-color: #4a93dd; 
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle 3D shadow */
+  position: relative;
+  z-index: 1000;
+  border-radius: 4px;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
+  margin: 0;
+  padding: 2rem 3rem;
+  list-style: none;
+}
+
+
+
+nav ul li a {
+  text-decoration: none;
+  color: #152f4d; /* Deep blue for contrast */
+  font-weight: 800;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  border-radius: 4px;
+}
+
+nav ul li a:hover {
+  background-color: #bbdefb;
+  color: #0d47a1;
+}
