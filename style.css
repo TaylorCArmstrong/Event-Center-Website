@@ -125,9 +125,10 @@ nav ul li a:hover {
 
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
   gap: 2rem;
-  max-width: 960px;
+  max-width: 1800px;
   width: 100%;
 }
 
@@ -135,17 +136,18 @@ nav ul li a:hover {
 header[role="banner"] {
   background: linear-gradient(135deg, #4b6cb7, #182848);
   color: white;
-  padding: 2rem;
-  border-radius: 0.75rem;
+  padding: 4rem;
+  border-radius: 7.5rem;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.2);
   width: fit-content;
   max-width: 100%;
-  margin-bottom: 2rem; 
+  margin-bottom: 2rem;
 }
 
 header h1 {
-  font-size: 2.5rem;
+  font-size: 10rem;
+  margin: 0;
 }
 
 /* Intro Section */
@@ -159,6 +161,8 @@ header h1 {
 }
 
 .intro h2 {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 1.75rem;
   margin-bottom: 1rem;
   color: #4b6cb7;
