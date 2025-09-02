@@ -2,6 +2,7 @@
 section {
   padding: 1.5rem;
   font-family: 'Segoe UI', Roboto, sans-serif;
+  border-radius: 20px;
   background-color: #f9fbfc;
   color: #2c3e50;
 }
@@ -62,15 +63,17 @@ tbody tr:hover td {
 /*Styling for the main logo*/
 .logo-box {
   position: absolute;
+  background: linear-gradient(#d9adad, lightpink, salmon);
   top: 10px;
   left: 15px;
   background-color: #d9adad;
   padding: 1rem 2rem;
-  border-radius: 10px;
+  border-radius: 100px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
   font-family: 'Segoe UI', Roboto, sans-serif;
   font-size: 1rem;
-  color: #333;
+  font-style: bold underline;
+  color: #202020;
   z-index: 1000;
 }
 
@@ -146,9 +149,9 @@ header h1 {
 
 /* Intro Section */
 .intro {
-  background-color:  #d5d5d5;
+  background: linear-gradient(#f7e1e1, lightpink);
   padding: 1.5rem;
-  border-left: 5px solid #4b6cb7;
+  border-left: 5px solid salmon;
   border-radius: 0.5rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   margin-bottom: 2rem; 
@@ -164,7 +167,7 @@ header h1 {
 
 /* Featured Section */
 .featured {
-  background-color:  #d5d5d5;
+  background: linear-gradient(#f7e1e1, lightpink);
   padding: 1.5rem;
   border-radius: 0.5rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
@@ -203,7 +206,7 @@ header h1 {
 /*Location Page*/
 .Location {
   max-width: 600px;
-  margin: 100px auto; /* centers horizontally and adds vertical spacing */
+  margin: 100px auto; 
   padding: 20px 30px;
   background-color: #d9adad;
   border-radius: 12px;
@@ -218,7 +221,7 @@ header h1 {
 
 .address {
   max-width: 600px;
-  margin: 100px auto; /* centers horizontally and adds vertical spacing */
+  margin: 100px auto; 
   padding: 20px 30px;
   background-color: #d5d5d5;
   border-radius: 12px;
@@ -323,9 +326,29 @@ button:hover {
   }
 }
 
-@media (max-width: 600px) {
-  header[role="banner"] {
-    font-size: 1.5rem;
-    padding: 1rem 1.5rem;
-  }
+/*Events Section*/
+
+.Sports,
+.Musical, 
+.Movie {
+  background: linear-gradient(#d9adad, lightpink, salmon);
+  font-size: 1rem;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  padding: 1.5rem;
+  border-left: 5px solid salmon;
+  border-radius: 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin-bottom: 2rem; 
+}
+
+
+
+.ul {
+  background-color: #eccccc;
+  padding: 1.5rem;
+  border-left: 5px solid salmon;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
