@@ -74,12 +74,6 @@ tbody tr:hover td {
   z-index: 1000;
 }
 
-@media (max-width: 600px) {
-  .logo-box {
-    font-size: 1.5px;
-    padding: 1rem 1.5rem;
-  }
-}
 
 
 
@@ -322,3 +316,16 @@ button:hover {
   background-color: #005ea2;
 }
 
+@media (max-width: 600px) {
+  * {
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  header[role="banner"] {
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+  }
+}
