@@ -52,15 +52,6 @@ tbody tr:hover td {
   cursor: pointer;
 }
 
-@media (max-width: 600px) {
-  table {
-    font-size: 0.95px;
-  }
-
-  thead th, tbody th, td {
-    padding: 10px;
-  }
-}
 
 /*Styling for the main logo*/
 .logo-box {
@@ -138,6 +129,7 @@ header[role="banner"] {
   border-radius: 7.5rem;
   text-align: center;
   box-shadow: 0 40px 120px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
   width: fit-content;
   max-width: 100%;
   margin-bottom: 2rem;
@@ -364,4 +356,14 @@ button:hover {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   margin-bottom: 2rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  table, .logo-box, nav, .container{
+    font-size: 0.95rem;
+  }
+
+  thead th, tbody th, td, nav ul, nav ul li a {
+    padding: 10px;
+  }
 }
