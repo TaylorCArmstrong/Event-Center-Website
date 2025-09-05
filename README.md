@@ -8,4 +8,6 @@ This project Features:
 
 - An events page with three different categories, all featuring different events, including show times and cancellations.
 
--
+- A responsive menu with hover effects
+
+- A location page listing hours,

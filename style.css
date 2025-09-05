@@ -320,6 +320,16 @@ tbody tr:hover td {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+    .map-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    iframe {
+      border: 0;
+      width: 600px;
+      height: 450px;
+    }
 
 
 .address {
