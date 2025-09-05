@@ -93,6 +93,13 @@ header h1 {
   justify-content: center;
   align-items: flex-start;
   flex-flow: column;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #d9adad;
+  padding: 1.5rem 2rem;
+  border-left: 5px solid salmon;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin-bottom: 2rem; 
   margin-left: 50px;
   margin-right: 50px;
 
@@ -150,6 +157,29 @@ header h1 {
   
 }
 
+.featuredul {
+  display: flex;
+  justify-content: stretch;
+  align-items: flex-end;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(#f7e1e1, lightpink);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin-bottom: 2rem; 
+  width: 80%;
+  max-width: 500px;
+  
+}
+
+.featuredul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding-left: 8px;
+  margin-top: 1rem;
+}
+
 .featured h2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
@@ -166,20 +196,24 @@ header h1 {
   margin-bottom: 0.75rem;
 }
 
-.featured a {
+.featured .featuredul a {
   text-decoration: none;
   color: #4b6cb7;
   font-weight: 600;
   transition: color 0.3s ease;
 }
 
-.featured a:hover,
-.featured a:focus {
+.featuredul a:hover,
+.featuredul a:focus {
   color: #182848;
   text-decoration: underline;
 }
 
 /*Events Section*/
+
+.events {
+  margin: 1rem;
+}
 
 .Sports,
 .Musical, 
@@ -216,7 +250,7 @@ header h1 {
 
 
 /*Menu Section*/
-section {
+.menu {
   padding: 1.5rem;
   font-family: 'Segoe UI', Roboto, sans-serif;
   position: relative;
@@ -226,7 +260,7 @@ section {
   color: #2c3e50;
 }
 
-section div {
+.menu div {
   overflow-x: auto;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
@@ -409,7 +443,6 @@ button:hover {
 .footer-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -422,10 +455,8 @@ button:hover {
 }
 
 .site-footer a:hover {
-  color: #00bcd4;
+  color: #0d47a1;
 }
-
-
 
 
 /*Media Sizing*/
