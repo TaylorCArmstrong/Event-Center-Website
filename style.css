@@ -142,6 +142,24 @@ header h1 {
   color: #4b6cb7;
 }
 
+/*Hero Image*/
+
+.heroimage {
+  position: absolute;      
+  top: 100px;              
+  right: 90px;             
+  z-index: 10;             
+}
+
+.heroimage img {
+  position: relative;
+  height: 580px;
+  object-fit: cover;
+  border-radius: 16px;       
+}
+
+
+
 /* Featured Section (on Home page) */
 .featured {
   display: flex;
@@ -325,10 +343,11 @@ tbody tr:hover td {
       justify-content: center;
       margin-top: 20px;
     }
+
     iframe {
       border: 0;
-      width: 600px;
-      height: 450px;
+      width: 300px;
+      height: 200px;
     }
 
 
@@ -478,6 +497,17 @@ button:hover {
 
   thead th, tbody th, td, nav ul, nav ul li a, .ul {
     padding: 8px;
+  }
+
+  .heroimage {
+    order: -1;               
+    width: 100%;
+    text-align: center;
+  }
+
+  .heroimage img {
+    width: 60vw;
+    max-height: 40vh;
   }
 
   header h1 {  
